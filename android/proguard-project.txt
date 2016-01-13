@@ -1,0 +1,47 @@
+# enable this when its clear how we handle the mapping files
+-dontobfuscate
+-optimizationpasses 5
+-ignorewarnings
+
+-dontwarn com.google.android.gms.**
+-dontwarn java.lang.invoke.*
+
+# our own project ... we don't have any dead code *G*
+-keep class com.ricamgar.gamecover.android.** { *; }
+
+-keepattributes Signature
+
+
+# retrofit parts we do not need
+-keep class retrofit.** { *; }
+-dontwarn javax.xml.**
+-dontwarn retrofit.RestMethodInfo$RxSupport
+-dontwarn retrofit.RxSupport*
+-dontwarn retrofit.appengine.*
+-dontwarn retrofit.client.OkClient*
+# TODO Can be removed as soon as we use retrofit 2.* : https://github.com/square/retrofit/issues/1019
+-dontwarn org.apache.http.**
+-dontwarn android.net.http.AndroidHttpClient
+-dontwarn retrofit.client.ApacheClient$GenericEntityHttpRequest
+-dontwarn retrofit.client.ApacheClient$GenericHttpRequest
+-dontwarn retrofit.client.ApacheClient$TypedOutputEntity
+
+-dontwarn rx.internal.util.unsafe.**
+
+-keep class com.google.gson.** { *; }
+-keep public class * extends com.google.inject.AbstractModule
+-keep class com.google.inject.** { *; }
+-keep class javax.inject.** { *; }
+-keep class javax.annotation.** { *; }
+
+# Retrolambda
+-dontwarn java.lang.invoke.*
+
+# support design
+-keep class android.support.design.** { *; }
+-keep interface android.support.design.** { *; }
+-dontwarn android.support.design.**
+
+# support lib
+-keep class android.support.v13.** {*;}
+-keep class android.support.v7.** {*;}

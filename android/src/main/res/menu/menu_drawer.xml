@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/navigation_games"
+			android:checked="true"
+			android:icon="@drawable/ic_games"
+			android:title="@string/drawer_item_games"/>
+
+		<item
+			android:id="@+id/navigation_virtual"
+			android:icon="@drawable/ic_virtual"
+			android:title="@string/drawer_item_virtual"/>
+
+		<item
+			android:id="@+id/navigation_emulators"
+			android:icon="@drawable/ic_emulators"
+			android:title="@string/drawer_item_emulators"/>
+
+		<item
+			android:id="@+id/navigation_contact"
+			android:icon="@drawable/ic_contact"
+			android:title="@string/drawer_item_contact"/>
+	</group>
+</menu>

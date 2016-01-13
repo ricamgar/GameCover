@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="contact_twitter_url" translatable="false">https://twitter.com/MIR_Technology</string>
+	<string name="contact_facebook_link" translatable="false">fb://profile/273009752823209</string>
+	<string name="contact_facebook_url" translatable="false">https://www.facebook.com/makeitrealtechnology</string>
+	<string name="contact_youtube_url" translatable="false">https://www.youtube.com/channel/UCMFzgrMBIQIp9LfVf7eFYCw</string>
+</resources>

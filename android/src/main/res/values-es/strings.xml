@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Game Cover</string>
+    <string name="action_settings">Opciones</string>
+    <string name="drawer_open">Abrir menú</string>
+    <string name="drawer_close">Cerrar menú</string>
+    <string name="title_games_mode_2">REALIDAD VIRTUAL</string>
+    <string name="title_games_root_devices">ROOTEADOS</string>
+    <string name="drawer_item_games">Juegos</string>
+    <string name="drawer_item_emulators">Emuladores</string>
+    <string name="drawer_item_multimedia">Multimedia</string>
+    <string name="drawer_item_contact">Contacto</string>
+    <string name="title_games_list">JUEGOS</string>
+    <string name="title_emulators">EMULADORES COMPATIBLES CON GAME COVER</string>
+    <string name="title_contact">CONTACTO</string>
+    <string name="title_multimedia">GC MANDO MULTIMEDIA</string>
+    <string name="multimedia_text">Usa tu Game Cover como un mando multimedia</string>
+    <string name="game_item_installed">¡Instalado!</string>
+    <string name="order_date">Ordenar por fecha</string>
+    <string name="order_name">Ordenar por nombre</string>
+    <string name="drawer_item_virtual">Realidad Virtual</string>
+    <string name="follow_us">Síguenos</string>
+    <string name="like_us">Agréganos</string>
+    <string name="visit_us">Visítanos</string>
+    <string name="write_us">Escríbenos</string>
+    <string name="copyright">Mirtech © 2015. Todos los derechos reservados.</string>
+
+</resources>
