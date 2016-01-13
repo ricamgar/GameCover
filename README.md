@@ -2,7 +2,7 @@
 
 This is the official application for the GameCover Gamepad provided by [Mirtech](http://www.mirtech.es/) ©
 
-The application shows all Games, Emulators and Virtual Reality apps compatible with the gamepad.
+The application shows all Games, Emulators and Virtual Reality apps compatible with the gamepad. It can be downloaded from the Play Store [https://play.google.com/store/apps/details?id=com.ricamgar.gamecover.android](https://play.google.com/store/apps/details?id=com.ricamgar.gamecover.android)
 
 This application has been used to research about new languages and libraries related to the Android world like:
 
